@@ -30,4 +30,26 @@
   - 可能需要分离 css 成单独的文件，以便多个页面共享同一个 css 文件
   - 需要压缩 HTML/CSS/JS 代码
   - 需要压缩图片
-- 其默认值为 `production`。
+- 其默认值为 `production`
+
+## 支持 CSS
+
+- css-loader 用来翻译处理 @import 和 url()
+  - 处理 import 和 url
+- style-loader 可以把 css 插入到 dom 中
+  - css -> js 脚本，并插入到页面中
+- Less-loader
+  - Less -> css
+
+### CSS 兼容性
+
+- 为了浏览器的兼容性，有时候我们必须加入一些前缀
+- 伪元素
+- `postcss-loader` 可以使用 `postcss`处理 css
+- `postcss-preset-env` 把现代的 css 转换成大多数浏览器能理解的
+
+# 学什么
+
+- 学原理；js css html 一定要掌握
+- 这些库，只需要知道，这些库能解决的问题，能力边界、应用场景，具体到用到的时候，再看文档
+
