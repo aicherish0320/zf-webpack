@@ -1,8 +1,5 @@
-import './style/index.css'
-import './style/bg.scss'
-import './style/index.less'
+let avatar = require('./assets/lisa1.jpeg')
 
-const h1 = document.createElement('h1')
-h1.innerHTML = 'Hello Webpack'
-
-document.body.appendChild(h1)
+const img = new Image()
+img.src = avatar.default
+document.body.appendChild(img)

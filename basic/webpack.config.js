@@ -10,7 +10,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist') // 会成为默认的静态文件服务器
+    path: path.resolve(__dirname, 'dist'), // 会成为默认的静态文件服务器
+    clean: true
   },
   devServer: {
     port: '3301',
@@ -24,7 +25,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: ['style-loader', 'css-loader', 'postcss-loader']
       },
       {
@@ -34,6 +35,17 @@ module.exports = {
       {
         test: /\.less$/i,
         use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader']
+      },
+      {
+        test: /\.(jpeg|png)$/i,
+        use: {
+          loader: 'url-loader',
+          options: {
+            // esModule: false,
+            name: `[name].[hash:8].[ext]`,
+            limit: 800 * 1024 // 如果文件太小，不需要拷贝文件，也不需要发 http 请求了，只需要把文件变成 base64 字符串内嵌到 html 页面中
+          }
+        }
       }
     ]
   },

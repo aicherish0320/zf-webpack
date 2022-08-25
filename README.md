@@ -48,6 +48,13 @@
 - `postcss-loader` 可以使用 `postcss`处理 css
 - `postcss-preset-env` 把现代的 css 转换成大多数浏览器能理解的
 
+## 支持图片
+
+
+
+- `file-loader`解决 css 等文件中的引入图片路径问题
+- `url-loader`当图片小于`limit`的时候会把图片 `base64`编码，大于 limit 参数的时候还是使用 `file-loader`
+
 # 学什么
 
 - 学原理；js css html 一定要掌握
