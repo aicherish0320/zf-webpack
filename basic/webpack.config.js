@@ -1,6 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const ESLintWebpackPlugin = require('eslint-webpack-plugin')
+// const ESLintWebpackPlugin = require('eslint-webpack-plugin')
 
 /*
   mode 只是在模块内可用，在node环境中不可用
@@ -34,20 +34,25 @@ module.exports = {
       //   },
       //   exclude: /node_modules/
       // },
+      // {
+      //   test: /\.js$/i,
+      //   use: [
+      //     {
+      //       loader: 'babel-loader',
+      //       options: {
+      //         presets: ['@babel/preset-env', '@babel/preset-react'],
+      //         plugins: [
+      //           ['@babel/plugin-proposal-decorators', { legacy: true }],
+      //           ['@babel/plugin-proposal-class-properties', { loose: true }]
+      //         ]
+      //       }
+      //     }
+      //   ]
+      // },
       {
         test: /\.js$/i,
-        use: [
-          {
-            loader: 'babel-loader',
-            options: {
-              presets: ['@babel/preset-env', '@babel/preset-react'],
-              plugins: [
-                ['@babel/plugin-proposal-decorators', { legacy: true }],
-                ['@babel/plugin-proposal-class-properties', { loose: true }]
-              ]
-            }
-          }
-        ]
+        use: ['babel-loader'],
+        exclude: /node_modules/
       },
       {
         test: /\.css$/i,
@@ -77,9 +82,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
-    }),
-    new ESLintWebpackPlugin({
-      exclude: ['node_modules']
     })
+    // new ESLintWebpackPlugin({
+    //   exclude: ['node_modules', 'dist']
+    // })
   ]
 }

@@ -66,6 +66,19 @@
 - babel 插件知道如何把老语法转成新的语法，每个插件会对应一个语法，比如说箭头函数 
 - 把插件打包成 Preset 预设，就是插件的集合
 
+## sourcemap
+
+- `sourcemap` 是为了解决开发代码与实际运行代码不一致时帮助我们 `debug`到原始开发代码的技术
+- `webpack` 通过配置可以自动给我们 `source maps`文件，`map` 文件是一种对应编译文件和源文件的方法
+
+### 配置项
+
+- `eval`：使用 eval 包裹模块代码
+- `source-map`产生 .map 文件
+- `cheap` 不包含列信息
+- `module`包含` loader`的 `sourcemap`
+- `inline`将 `.map`作为 data URI 嵌入，不单独产生 map 文件
+
 # 学什么
 
 - 学原理；js css html 一定要掌握
