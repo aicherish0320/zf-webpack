@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("var sum = function sum(a, b) {\n  return a + b;\n};\n\n//# sourceURL=webpack://basic/./src/index.js?");
+eval("console.log('hate eslint');\n\n//# sourceURL=webpack://basic/./src/index.js?");
 
 /***/ })
 

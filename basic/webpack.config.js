@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ESLintWebpackPlugin = require('eslint-webpack-plugin')
 
 /*
   mode 只是在模块内可用，在node环境中不可用
@@ -24,6 +25,15 @@ module.exports = {
   },
   module: {
     rules: [
+      // {
+      //   test: /\.js$/i,
+      //   loader: 'eslint-loader', // 可以进行代码的检查
+      //   enforce: 'pre', // loader 的分类 pre(先执行) post(后执行) normal inline
+      //   options: {
+      //     fix: true // 自动修复
+      //   },
+      //   exclude: /node_modules/
+      // },
       {
         test: /\.js$/i,
         use: [
@@ -67,6 +77,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
+    }),
+    new ESLintWebpackPlugin({
+      exclude: ['node_modules']
     })
   ]
 }
