@@ -55,6 +55,17 @@
 - `file-loader`解决 css 等文件中的引入图片路径问题
 - `url-loader`当图片小于`limit`的时候会把图片 `base64`编码，大于 limit 参数的时候还是使用 `file-loader`
 
+## JS 兼容性
+
+- Babel 其实是一个编译 JavaScript 的平台，可以把 ES6/ES7，React 的 JSX 转义为 ES5
+- `@babel/preset-env`
+  - babel 默认只转换最新的 ES 语法，比如：箭头函数
+- babel-loader 只是一个转换函数，并不能识别 JS 语法，也不知道如何转换
+- 得认识 JS 代码，知道如何把老代码转换成新代码
+- @babel/core 它是 babel 核心模块，它认识 JS 代码，能够识别 JS 代码，不知道如何转换写法
+- babel 插件知道如何把老语法转成新的语法，每个插件会对应一个语法，比如说箭头函数 
+- 把插件打包成 Preset 预设，就是插件的集合
+
 # 学什么
 
 - 学原理；js css html 一定要掌握
