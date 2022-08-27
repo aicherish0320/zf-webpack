@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/lisa3.png" alt="lisa" /> -->
-    <!-- <img :src="imgUrl" alt="lisa" /> -->
     <HelloWorld msg="Vue3 + Vite"></HelloWorld>
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import HelloWorld from '@/components/HelloWorld.vue'
-// import imgUrl from './assets/lisa3.png'
+
+const getUsers = async () => {
+  const ret = await fetch('/api/users')
+  const data = await ret.json()
+}
+
+getUsers()
 </script>
 
 <style>
 #app {
   height: 100vh;
-  /* background-image: url('./assets/lisa3.png'); */
-  /* background-repeat: no-repeat; */
 }
 </style>
