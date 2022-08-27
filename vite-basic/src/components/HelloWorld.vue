@@ -1,34 +1,18 @@
 <template>
-  <p>
-    <div>{{msg}}</div>
-    <div class="box"></div>
-  </p>
+  <div>
+    <p>{{ msg }}</p>
+    <button @click="handleAdd">Add {{ count }}</button>
+  </div>
 </template>
 
-<script setup>
-defineProps(['msg'])
-// import style from './HelloWorld.module.css'
-// console.log('style >>> ', style)
+<script setup lang="ts">
+import useCount from '../hooks/useCount'
+
+defineProps<{
+  msg: string
+}>()
+
+const { count, handleAdd } = useCount()
 </script>
 
-<!-- <style module>
-p {
-  color: red;
-}
-.font {
-  font-size: 60px;
-}
-</style> -->
-
-<style lang="scss" scoped>
-$color: pink;
-p {
-  color: $color;
-}
-.box  {
-  width: 100px;
-  height: 50px;
-  background: cyan;
-  transform: translateZ(45deg);
-}
-</style>
+<style scoped></style>
