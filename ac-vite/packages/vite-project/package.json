@@ -1,0 +1,30 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "description": "this is a vite project",
+  "keywords": [
+    "vite",
+    "project"
+  ],
+  "author": "aicherish <aicherish0320@163.com>",
+  "homepage": "https://github.com/aicherish0320/zf-webpack#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aicherish0320/zf-webpack.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/vite-project.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/aicherish0320/zf-webpack/issues"
+  }
+}
