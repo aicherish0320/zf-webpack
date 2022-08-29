@@ -29,5 +29,11 @@
   },
   "bugs": {
     "url": "https://github.com/aicherish0320/zf-webpack/issues"
+  },
+  "dependencies": {
+    "es-module-lexer": "^1.0.3",
+    "koa": "^2.13.4",
+    "koa-static": "^5.0.0",
+    "magic-string": "^0.26.2"
   }
 }
