@@ -1,5 +1,8 @@
 const Koa = require('koa')
 const { serveStaticPlugin } = require('./serverPluginServeStatic')
+const { moduleRewritePlugin } = require('./serverPluginModuleRewrite')
+const { moduleResolvePlugin } = require('./serverPluginModuleResolve')
+const { injectProcessPlugin } = require('./serverPluginInjectProcess')
 
 /*
   1. 实现一个 Http 服务器，让客户端访问 index.html 能返回 index.html
@@ -19,8 +22,13 @@ function createServer() {
     Object.assign(ctx, context) // 把 context 上的 app 和 projectRoot 属性赋给 ctx
     return next()
   })
-
-  const resolvedPlugins = [serveStaticPlugin]
+  // Koa 中的中间件是洋葱模型
+  const resolvedPlugins = [
+    injectProcessPlugin,
+    moduleRewritePlugin,
+    moduleResolvePlugin,
+    serveStaticPlugin
+  ]
   resolvedPlugins.forEach((plugin) => plugin(context))
 
   return app
