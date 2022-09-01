@@ -1,0 +1,28 @@
+# webpack 性能优化
+
+- 如何配置和启动项目
+- 如何进行数据性能分析
+- 编译时间的优化
+  - 减少要处理的文件
+  - 缩小查找范围
+    - `extensions`
+      - 指定 `extensions` 之后可以不用在 require 或是 import 的时候加文件扩展名
+      - 查找的时候会依次尝试添加扩展名进行匹配
+    - `alias`
+      - 配置别名可以加快 webpack 查找模块的速度
+      - 每当引入 Bootstrap 模块的时候，它会直接引入 Bootstrap，而不需要从 node_modules 文件夹中按模块的查找规则查找
+    - `modules`
+      - 对于直接声明依赖名的模块，webpack 会使用类似 Node.js 一样进行路径搜索，搜索 node_modules 目录
+      - 如果可以确定项目内所有的第三方依赖模块都是在项目根目录下的 node_modules 中的话可以直接指定
+      - 默认配置
+    - `mainFields`
+      - 默认情况下 package.json 文件则按照文件中 main 字段的文件名来查找文件
+    - `mainFiles`
+      - 当前目录下没有 package.json 文件时，我们说会默认使用目录下的 index.js 文件
+    - `oneOf`
+      - 每个文件对于 rules 中的所有规则都会遍历一边，如果使用 oneOf 就可以解决该问题，只能匹配一个即可退出
+      - 在 oneOf 中不能两个配置处理同一种类型文件
+    - `external`
+      - 如果我们想引用一个库，但是又不想让 webpack 打包，并且又不影响我们在程序中一 CMD、AMD 或者 window/global 全局等方式进行使用，那就可以配置 external
+- 编译体积的优化
+- 如何运行的更快
