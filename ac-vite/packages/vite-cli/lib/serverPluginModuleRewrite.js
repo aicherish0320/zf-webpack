@@ -10,8 +10,11 @@ async function rewriteImports(content) {
     if (imports0.length > 0) {
       for (let i = 0; i < imports0.length; i++) {
         const { n, s, e } = imports0[i]
-        const rewriteModuleId = `/@modules/${n}`
-        magicString.overwrite(s, e, rewriteModuleId)
+        // 如果开始 既不是 / 也不是 .
+        if (/^[^\/\.]/.test(n)) {
+          const rewriteModuleId = `/@modules/${n}`
+          magicString.overwrite(s, e, rewriteModuleId)
+        }
       }
     }
   }

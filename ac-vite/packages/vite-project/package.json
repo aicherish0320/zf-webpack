@@ -28,6 +28,7 @@
     "url": "https://github.com/aicherish0320/zf-webpack/issues"
   },
   "dependencies": {
+    "dedent": "^0.7.0",
     "vite": "^3.0.9",
     "vue": "^3.2.37"
   },

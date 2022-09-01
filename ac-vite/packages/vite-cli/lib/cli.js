@@ -3,6 +3,7 @@ const { serveStaticPlugin } = require('./serverPluginServeStatic')
 const { moduleRewritePlugin } = require('./serverPluginModuleRewrite')
 const { moduleResolvePlugin } = require('./serverPluginModuleResolve')
 const { injectProcessPlugin } = require('./serverPluginInjectProcess')
+const { vuePlugin } = require('./serverPluginVue')
 
 /*
   1. 实现一个 Http 服务器，让客户端访问 index.html 能返回 index.html
@@ -24,10 +25,11 @@ function createServer() {
   })
   // Koa 中的中间件是洋葱模型
   const resolvedPlugins = [
-    injectProcessPlugin,
-    moduleRewritePlugin,
-    moduleResolvePlugin,
-    serveStaticPlugin
+    injectProcessPlugin, // 往 html 中注入 process
+    moduleRewritePlugin, // 重写模块路径
+    moduleResolvePlugin, // 解析重写后的模块路径
+    vuePlugin, // 解析 vue
+    serveStaticPlugin // 返回静态文件的
   ]
   resolvedPlugins.forEach((plugin) => plugin(context))
 
