@@ -24,5 +24,24 @@
       - 在 oneOf 中不能两个配置处理同一种类型文件
     - `external`
       - 如果我们想引用一个库，但是又不想让 webpack 打包，并且又不影响我们在程序中一 CMD、AMD 或者 window/global 全局等方式进行使用，那就可以配置 external
+    - noParse
+      - `module.noParse` 字段，可以用于配置哪些模块文件的内容不需要进行解析
+      - 不需要解析依赖的第三方大型类库，可以通过这个字段来配置，以提高整体的构建速度
+      - 使用 `noParse`进行忽略的模块文件中不能使用 import require 等语法
+    - `ignore-plugin`
+      - 用于忽略某些特定的模块，让 webpack 不要把这些指定的模块打包进行，手动引入
+    - `thread-loader` 多进程
+      - 把 thread-loader 放置在其他 loader 之前，放置在这个 loader 之后的 loader，就会在一个单独的 worker 池中运行
+    - 利用缓存
+      - 利用缓存可以提升重复构建的速度
+      - babel-loader,babel 在转以 js 文件过程中消耗性能非常高，将 babel-loader 执行的结果缓存起来，当重新打包构建时会尝试读取缓存，从而提高打包构建速度，降低消耗
+      - cache-loader，在一些性能开销较大的 cache-loader 之前添加此 loader，可以将结果缓存到磁盘中
+      - hard-source-webpack-plugin
+        - 为模块提供了中间缓存
+        - webpack5 已经自带了
 - 编译体积的优化
+  - 压缩 JS、CSS、HTML 和 图片
+    - `optimize-css-assets-webpack-plugin`，是一个优化和压缩 CSS 资源的插件
+    - `terser-webpack-plugin`，是一个优化和压缩 JS 资源的插件
+    - `image-webpack-loader`，可以帮助我们对图片进行压缩和优化
 - 如何运行的更快

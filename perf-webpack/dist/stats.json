@@ -1,8 +1,8 @@
 {
-  "hash": "1832ec9f1d57dec44626",
+  "hash": "d961a02cedb6575f0ff0",
   "version": "5.74.0",
-  "time": 379,
-  "builtAt": 1662022859195,
+  "time": 311,
+  "builtAt": 1662081766625,
   "publicPath": "auto",
   "outputPath": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/dist",
   "assetsByChunkName": {
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 22716,
+      "size": 178704,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -23,7 +23,7 @@
         "related": {
           "sourceMap": "main.js.map"
         },
-        "size": 22716
+        "size": 178704
       },
       "chunkNames": [
         "main"
@@ -36,13 +36,13 @@
         {
           "type": "sourceMap",
           "name": "main.js.map",
-          "size": 17441,
+          "size": 211290,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 17441
+            "size": 211290
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -71,10 +71,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 11897,
+      "size": 175712,
       "sizes": {
-        "javascript": 10925,
-        "runtime": 972
+        "javascript": 174652,
+        "runtime": 1060
       },
       "names": [
         "main"
@@ -89,7 +89,7 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "76e016537a2162101cb3",
+      "hash": "1bdf211b579d60f0975d",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -100,960 +100,21 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 635,
+          "size": 174604,
           "sizes": {
-            "javascript": 635
+            "javascript": 174604
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "index": 8,
-          "preOrderIndex": 8,
-          "index2": 8,
-          "postOrderIndex": 8,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "issuerId": "./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-              "loc": "8:6-126",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-              "loc": "22:17-24",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-              "loc": "26:0-96",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony export imported specifier",
-              "active": false,
-              "explanation": "",
-              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-              "loc": "26:0-96",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-              "loc": "27:22-29",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-              "loc": "27:33-47",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-              "loc": "27:50-64",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 2318,
-          "sizes": {
-            "javascript": 2318
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-          "name": "./node_modules/css-loader/dist/runtime/api.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-          "index": 10,
-          "preOrderIndex": 10,
-          "index2": 7,
-          "postOrderIndex": 7,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "id": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/css-loader/dist/runtime/api.js",
-          "issuerId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "3:0-89",
-              "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "4:30-57",
-              "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-              "module": "./node_modules/css-loader/dist/runtime/api.js",
-              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "7:0-14",
-              "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
-              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 7:0-14"
-          ],
-          "depth": 3
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 688,
-          "sizes": {
-            "javascript": 688
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "index": 9,
-          "preOrderIndex": 9,
-          "index2": 6,
-          "postOrderIndex": 6,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "id": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "issuerId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "loc": "2:0-106",
-              "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "loc": "4:58-95",
-              "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "3:0-14",
-              "moduleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 3:0-14"
-          ],
-          "depth": 3
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 2500,
-          "sizes": {
-            "javascript": 2500
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "index": 2,
-          "preOrderIndex": 2,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "issuerId": "./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "loc": "2:6-95",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "loc": "22:13-16",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "75:0-14",
-              "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 75:0-14"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 1005,
-          "sizes": {
-            "javascript": 1005
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "index": 4,
-          "preOrderIndex": 4,
-          "index2": 2,
-          "postOrderIndex": 2,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "issuerId": "./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "loc": "4:6-92",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "loc": "17:23-36",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "39:0-14",
-              "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 39:0-14"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 286,
-          "sizes": {
-            "javascript": 286
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "index": 6,
-          "preOrderIndex": 6,
-          "index2": 4,
-          "postOrderIndex": 4,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "issuerId": "./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "loc": "6:6-104",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "loc": "20:29-47",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "11:0-14",
-              "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 11:0-14"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 300,
-          "sizes": {
-            "javascript": 300
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "index": 5,
-          "preOrderIndex": 5,
-          "index2": 3,
-          "postOrderIndex": 3,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "issuerId": "./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "loc": "5:6-111",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "loc": "15:24-37",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "12:0-14",
-              "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 12:0-14"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 1412,
-          "sizes": {
-            "javascript": 1412
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "index": 3,
-          "preOrderIndex": 3,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "issuerId": "./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "loc": "3:6-85",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "loc": "19:17-23",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "70:0-14",
-              "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 70:0-14"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 382,
-          "sizes": {
-            "javascript": 382
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "index": 7,
-          "preOrderIndex": 7,
-          "index2": 5,
-          "postOrderIndex": 5,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "issuerName": "./src/index.css",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            },
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "name": "./src/index.css",
-              "id": "./src/index.css"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "issuerId": "./src/index.css",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "loc": "7:6-104",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "module": "./src/index.css",
-              "moduleName": "./src/index.css",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-              "resolvedModule": "./src/index.css",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "loc": "14:28-47",
-              "moduleId": "./src/index.css",
-              "resolvedModuleId": "./src/index.css"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "16:0-14",
-              "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-              "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 16:0-14"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 1194,
-          "sizes": {
-            "javascript": 1194
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
+          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "name": "./node_modules/moment/moment.js",
+          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
           "index": 1,
           "preOrderIndex": 1,
-          "index2": 9,
-          "postOrderIndex": 9,
+          "index2": 0,
+          "postOrderIndex": 0,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1070,7 +131,7 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": "./src/index.css",
+          "id": "./node_modules/moment/moment.js",
           "issuerId": "./src/index.js",
           "chunks": [
             "main"
@@ -1078,34 +139,106 @@
           "assets": [],
           "reasons": [
             {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "8:67-81",
+              "moduleId": "./node_modules/moment/moment.js",
+              "resolvedModuleId": "./node_modules/moment/moment.js"
+            },
+            {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "11:2-6",
+              "moduleId": "./node_modules/moment/moment.js",
+              "resolvedModuleId": "./node_modules/moment/moment.js"
+            },
+            {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2095:12-18",
+              "moduleId": "./node_modules/moment/moment.js",
+              "resolvedModuleId": "./node_modules/moment/moment.js"
+            },
+            {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "module": "./node_modules/moment/moment.js",
+              "moduleName": "./node_modules/moment/moment.js",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+              "resolvedModule": "./node_modules/moment/moment.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2096:12-26",
+              "moduleId": "./node_modules/moment/moment.js",
+              "resolvedModuleId": "./node_modules/moment/moment.js"
+            },
+            {
               "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
               "resolvedModule": "./src/index.js",
-              "type": "cjs require",
+              "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
-              "userRequest": "./index.css",
-              "loc": "4:0-22",
+              "userRequest": "moment",
+              "loc": "1:0-27",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "moment",
+              "loc": "2:12-18",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
           ],
           "usedExports": null,
-          "providedExports": [
-            "default"
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 11:2-6",
+            "CommonJS bailout: module.exports is used directly at 2096:12-26",
+            "CommonJS bailout: module.exports is used directly at 8:67-81"
           ],
-          "optimizationBailout": [],
           "depth": 1
         },
         {
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 163,
+          "size": 48,
           "sizes": {
-            "javascript": 163
+            "javascript": 48
           },
           "built": true,
           "codeGenerated": true,
@@ -1116,8 +249,8 @@
           "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 11,
-          "postOrderIndex": 11,
+          "index2": 1,
+          "postOrderIndex": 1,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1151,70 +284,9 @@
             }
           ],
           "usedExports": null,
-          "providedExports": null,
+          "providedExports": [],
           "optimizationBailout": [],
           "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/dynamic",
-          "layer": null,
-          "size": 42,
-          "sizes": {
-            "javascript": 42
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "external var \"jQuery\"",
-          "name": "external \"jQuery\"",
-          "nameForCondition": null,
-          "index": 11,
-          "preOrderIndex": 11,
-          "index2": 10,
-          "postOrderIndex": 10,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "issuerName": "./src/index.js",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "jquery",
-          "issuerId": "./src/index.js",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "cjs require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "jquery",
-              "loc": "6:10-27",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1
         },
         {
           "type": "module",
@@ -1364,16 +436,16 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 35,
+          "size": 123,
           "sizes": {
-            "runtime": 35
+            "runtime": 123
           },
           "built": false,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "webpack/runtime/nonce",
-          "name": "webpack/runtime/nonce",
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
@@ -1413,9 +485,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 163,
+      "size": 48,
       "sizes": {
-        "javascript": 163
+        "javascript": 48
       },
       "built": true,
       "codeGenerated": true,
@@ -1426,8 +498,8 @@
       "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 11,
-      "postOrderIndex": 11,
+      "index2": 1,
+      "postOrderIndex": 1,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -1460,7 +532,7 @@
         }
       ],
       "usedExports": null,
-      "providedExports": null,
+      "providedExports": [],
       "optimizationBailout": [],
       "depth": 0
     },
@@ -1468,1054 +540,136 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1194,
+      "size": 174604,
       "sizes": {
-        "javascript": 1194
+        "javascript": 174604
       },
       "built": true,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "name": "./src/index.css",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
+      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+      "name": "./node_modules/moment/moment.js",
+      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
       "index": 1,
       "preOrderIndex": 1,
-      "index2": 9,
-      "postOrderIndex": 9,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/index.css",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./index.css",
-          "loc": "4:0-22",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/dynamic",
-      "layer": null,
-      "size": 42,
-      "sizes": {
-        "javascript": 42
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "external var \"jQuery\"",
-      "name": "external \"jQuery\"",
-      "nameForCondition": null,
-      "index": 11,
-      "preOrderIndex": 11,
-      "index2": 10,
-      "postOrderIndex": 10,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "jquery",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "jquery",
-          "loc": "6:10-27",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 2500,
-      "sizes": {
-        "javascript": 2500
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "index": 2,
-      "preOrderIndex": 2,
       "index2": 0,
       "postOrderIndex": 0,
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./src/index.css",
+      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+      "issuerName": "./src/index.js",
       "issuerPath": [
         {
           "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
           "name": "./src/index.js",
           "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "issuerId": "./src/index.css",
+      "id": "./node_modules/moment/moment.js",
+      "issuerId": "./src/index.js",
       "chunks": [
         "main"
       ],
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "loc": "2:6-95",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "loc": "22:13-16",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
           "type": "cjs self exports reference",
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "75:0-14",
-          "moduleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
+          "loc": "8:67-81",
+          "moduleId": "./node_modules/moment/moment.js",
+          "resolvedModuleId": "./node_modules/moment/moment.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "11:2-6",
+          "moduleId": "./node_modules/moment/moment.js",
+          "resolvedModuleId": "./node_modules/moment/moment.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2095:12-18",
+          "moduleId": "./node_modules/moment/moment.js",
+          "resolvedModuleId": "./node_modules/moment/moment.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "module": "./node_modules/moment/moment.js",
+          "moduleName": "./node_modules/moment/moment.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
+          "resolvedModule": "./node_modules/moment/moment.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2096:12-26",
+          "moduleId": "./node_modules/moment/moment.js",
+          "resolvedModuleId": "./node_modules/moment/moment.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "moment",
+          "loc": "1:0-27",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "moment",
+          "loc": "2:12-18",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
         }
       ],
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 75:0-14"
+        "CommonJS bailout: this is used directly at 11:2-6",
+        "CommonJS bailout: module.exports is used directly at 2096:12-26",
+        "CommonJS bailout: module.exports is used directly at 8:67-81"
       ],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 1412,
-      "sizes": {
-        "javascript": 1412
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-      "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-      "index": 3,
-      "preOrderIndex": 3,
-      "index2": 1,
-      "postOrderIndex": 1,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-      "issuerId": "./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "loc": "3:6-85",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "loc": "19:17-23",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "70:0-14",
-          "moduleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
-          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleDomAPI.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 70:0-14"
-      ],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 1005,
-      "sizes": {
-        "javascript": 1005
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-      "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-      "index": 4,
-      "preOrderIndex": 4,
-      "index2": 2,
-      "postOrderIndex": 2,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-      "issuerId": "./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "loc": "4:6-92",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "loc": "17:23-36",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "39:0-14",
-          "moduleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
-          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertBySelector.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 39:0-14"
-      ],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 300,
-      "sizes": {
-        "javascript": 300
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-      "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-      "index": 5,
-      "preOrderIndex": 5,
-      "index2": 3,
-      "postOrderIndex": 3,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-      "issuerId": "./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "loc": "5:6-111",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "loc": "15:24-37",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "12:0-14",
-          "moduleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
-          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 12:0-14"
-      ],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 286,
-      "sizes": {
-        "javascript": 286
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-      "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-      "index": 6,
-      "preOrderIndex": 6,
-      "index2": 4,
-      "postOrderIndex": 4,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-      "issuerId": "./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "loc": "6:6-104",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "loc": "20:29-47",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "11:0-14",
-          "moduleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
-          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/insertStyleElement.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 11:0-14"
-      ],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 382,
-      "sizes": {
-        "javascript": 382
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-      "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-      "index": 7,
-      "preOrderIndex": 7,
-      "index2": 5,
-      "postOrderIndex": 5,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-      "issuerId": "./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "loc": "7:6-104",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "loc": "14:28-47",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "16:0-14",
-          "moduleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
-          "resolvedModuleId": "./node_modules/style-loader/dist/runtime/styleTagTransform.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 16:0-14"
-      ],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 635,
-      "sizes": {
-        "javascript": 635
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "name": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "index": 8,
-      "preOrderIndex": 8,
-      "index2": 8,
-      "postOrderIndex": 8,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-      "issuerId": "./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-          "loc": "8:6-126",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-          "loc": "22:17-24",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-          "loc": "26:0-96",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony export imported specifier",
-          "active": false,
-          "explanation": "",
-          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-          "loc": "26:0-96",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-          "loc": "27:22-29",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-          "loc": "27:33-47",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./src/index.css",
-          "moduleName": "./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!../loaders/loggerLoader.js!./index.css",
-          "loc": "27:50-64",
-          "moduleId": "./src/index.css",
-          "resolvedModuleId": "./src/index.css"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 688,
-      "sizes": {
-        "javascript": 688
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-      "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-      "index": 9,
-      "preOrderIndex": 9,
-      "index2": 6,
-      "postOrderIndex": 6,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "id": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-      "issuerId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "loc": "2:0-106",
-          "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "loc": "4:58-95",
-          "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "3:0-14",
-          "moduleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/sourceMaps.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 3:0-14"
-      ],
-      "depth": 3
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 2318,
-      "sizes": {
-        "javascript": 2318
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-      "name": "./node_modules/css-loader/dist/runtime/api.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-      "index": 10,
-      "preOrderIndex": 10,
-      "index2": 7,
-      "postOrderIndex": 7,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-      "issuerName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/style-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./src/index.css",
-          "id": "./src/index.css"
-        },
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "name": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "id": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/css-loader/dist/runtime/api.js",
-      "issuerId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-          "loc": "3:0-89",
-          "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "module": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "moduleName": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/cjs.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/loaders/loggerLoader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.css",
-          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-          "loc": "4:30-57",
-          "moduleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css",
-          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./loaders/loggerLoader.js!./src/index.css"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-          "module": "./node_modules/css-loader/dist/runtime/api.js",
-          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/css-loader/dist/runtime/api.js",
-          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "7:0-14",
-          "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
-          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 7:0-14"
-      ],
-      "depth": 3
+      "depth": 1
     },
     {
       "type": "module",
@@ -2661,16 +815,16 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 35,
+      "size": 123,
       "sizes": {
-        "runtime": 35
+        "runtime": 123
       },
       "built": false,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "webpack/runtime/nonce",
-      "name": "webpack/runtime/nonce",
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
       "nameForCondition": null,
       "index": null,
       "preOrderIndex": null,
@@ -2702,19 +856,19 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 22716
+          "size": 178704
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 22716,
+      "assetsSize": 178704,
       "auxiliaryAssets": [
         {
           "name": "main.js.map",
-          "size": 17441
+          "size": 211290
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 17441,
+      "auxiliaryAssetsSize": 211290,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -2729,19 +883,19 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 22716
+          "size": 178704
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 22716,
+      "assetsSize": 178704,
       "auxiliaryAssets": [
         {
           "name": "main.js.map",
-          "size": 17441
+          "size": 211290
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 17441,
+      "auxiliaryAssetsSize": 211290,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false

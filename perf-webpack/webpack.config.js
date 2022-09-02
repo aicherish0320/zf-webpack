@@ -1,4 +1,5 @@
 const path = require('path')
+const webpack = require('webpack')
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 const notifier = require('node-notifier')
 const speedMeasureWebpackPlugin = require('speed-measure-webpack-plugin')
@@ -20,7 +21,27 @@ module.exports = smp.wrap({
     filename: '[name].js'
   },
   module: {
+    // 如果模块的路径匹配此正则的话，就不需要去查找里面的依赖项 require import
+    noParse: /title.js/,
     rules: [
+      {
+        test: /\.js$/i,
+        include: path.resolve(__dirname, 'src'),
+        exclude: /node_modules/, // 不解析 node_modules
+        use: [
+          {
+            // thread-loader 开启线程池，开线程和线程通信都需要时间
+            loader: 'thread-loader',
+            options: { workers: 3 }
+          },
+          {
+            loader: 'babel-loader',
+            options: {
+              cacheDirectory: true
+            }
+          }
+        ]
+      },
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
@@ -55,6 +76,10 @@ module.exports = smp.wrap({
     new BundleAnalyzerPlugin({
       analyzerMode: 'disabled', // 不启动展示打包报告的 HTTP 服务区
       generateStatsFile: true // 要生成 stats.json 文件
+    }),
+    new webpack.IgnorePlugin({
+      resourceRegExp: /^\.\/locale$/,
+      contextRegExp: /moment$/
     })
   ]
 })
