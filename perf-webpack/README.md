@@ -45,3 +45,22 @@
     - `terser-webpack-plugin`，是一个优化和压缩 JS 资源的插件
     - `image-webpack-loader`，可以帮助我们对图片进行压缩和优化
 - 如何运行的更快
+
+## 环境差异
+
+- 开发环境
+  - 需要生成 sourcemap 文件
+  - 需要打印 debug 信息
+  - 需要 live reload 或者 hot reload 的功能
+- 生产环境
+  - 可能需要分离 CSS 成单独的文件，以便多个页面共享同一个 CSS 文件
+  - 需要压缩 HTML/CSS/JS 代码
+  - 需要压缩图片
+- 其默认值为 production
+
+### 如何配置环境信息？
+
+- mode 默认值
+- 命令行传 mode， `webpack --mode=development`
+- env `webpack --env=development`
+- cross-env NODE_ENV=development webpack

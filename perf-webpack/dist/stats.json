@@ -1,8 +1,8 @@
 {
-  "hash": "d961a02cedb6575f0ff0",
+  "hash": "141d14ce51c3397ea2f1",
   "version": "5.74.0",
-  "time": 311,
-  "builtAt": 1662081766625,
+  "time": 367,
+  "builtAt": 1662094694281,
   "publicPath": "auto",
   "outputPath": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/dist",
   "assetsByChunkName": {
@@ -13,17 +13,37 @@
   "assets": [
     {
       "type": "asset",
+      "name": "index.html",
+      "size": 383,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 383
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "main.js",
-      "size": 178704,
+      "size": 67,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "javascriptModule": false,
+        "minimized": true,
         "related": {
           "sourceMap": "main.js.map"
         },
-        "size": 178704
+        "size": 67
       },
       "chunkNames": [
         "main"
@@ -36,13 +56,13 @@
         {
           "type": "sourceMap",
           "name": "main.js.map",
-          "size": 211290,
+          "size": 308,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 211290
+            "size": 308
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -53,13 +73,13 @@
           "related": {},
           "chunks": [],
           "auxiliaryChunks": [
-            "main"
+            179
           ],
           "isOverSizeLimit": false
         }
       ],
       "chunks": [
-        "main"
+        179
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -71,10 +91,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 175712,
+      "size": 122,
       "sizes": {
-        "javascript": 174652,
-        "runtime": 1060
+        "javascript": 122
       },
       "names": [
         "main"
@@ -89,9 +108,9 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "1bdf211b579d60f0975d",
+      "hash": "035693332a3007343c06",
       "childrenByOrder": {},
-      "id": "main",
+      "id": 179,
       "siblings": [],
       "parents": [],
       "children": [],
@@ -100,145 +119,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 174604,
+          "size": 122,
           "sizes": {
-            "javascript": 174604
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "name": "./node_modules/moment/moment.js",
-          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "index": 1,
-          "preOrderIndex": 1,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "issuerName": "./src/index.js",
-          "issuerPath": [
-            {
-              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "name": "./src/index.js",
-              "id": "./src/index.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "./node_modules/moment/moment.js",
-          "issuerId": "./src/index.js",
-          "chunks": [
-            "main"
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "module": "./node_modules/moment/moment.js",
-              "moduleName": "./node_modules/moment/moment.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "resolvedModule": "./node_modules/moment/moment.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "8:67-81",
-              "moduleId": "./node_modules/moment/moment.js",
-              "resolvedModuleId": "./node_modules/moment/moment.js"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "module": "./node_modules/moment/moment.js",
-              "moduleName": "./node_modules/moment/moment.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "resolvedModule": "./node_modules/moment/moment.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "11:2-6",
-              "moduleId": "./node_modules/moment/moment.js",
-              "resolvedModuleId": "./node_modules/moment/moment.js"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "module": "./node_modules/moment/moment.js",
-              "moduleName": "./node_modules/moment/moment.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "resolvedModule": "./node_modules/moment/moment.js",
-              "type": "module decorator",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "2095:12-18",
-              "moduleId": "./node_modules/moment/moment.js",
-              "resolvedModuleId": "./node_modules/moment/moment.js"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "module": "./node_modules/moment/moment.js",
-              "moduleName": "./node_modules/moment/moment.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-              "resolvedModule": "./node_modules/moment/moment.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "2096:12-26",
-              "moduleId": "./node_modules/moment/moment.js",
-              "resolvedModuleId": "./node_modules/moment/moment.js"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "moment",
-              "loc": "1:0-27",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "moment",
-              "loc": "2:12-18",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: this is used directly at 11:2-6",
-            "CommonJS bailout: module.exports is used directly at 2096:12-26",
-            "CommonJS bailout: module.exports is used directly at 8:67-81"
-          ],
-          "depth": 1
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 48,
-          "sizes": {
-            "javascript": 48
+            "javascript": 122
           },
           "built": true,
           "codeGenerated": true,
@@ -249,8 +132,8 @@
           "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 1,
-          "postOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -261,10 +144,10 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": "./src/index.js",
+          "id": 138,
           "issuerId": null,
           "chunks": [
-            "main"
+            179
           ],
           "assets": [],
           "reasons": [
@@ -283,82 +166,597 @@
               "resolvedModuleId": null
             }
           ],
-          "usedExports": null,
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 5:0-42",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 122,
+      "sizes": {
+        "javascript": 122
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 138,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 5:0-42",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 67
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 67,
+      "auxiliaryAssets": [
+        {
+          "name": "main.js.map",
+          "size": 308
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 308,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 67
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 67,
+      "auxiliaryAssets": [
+        {
+          "name": "main.js.map",
+          "size": 308
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 308,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "b8505e9014a543c48b3d",
+      "version": "5.74.0",
+      "time": 124,
+      "builtAt": 1662094694067,
+      "publicPath": "",
+      "outputPath": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1185,
+          "sizes": {
+            "javascript": 745,
+            "runtime": 440
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "23616ceaf99ce1eb1047",
+          "childrenByOrder": {},
+          "id": 563,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 668,
+              "sizes": {
+                "javascript": 668
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 411,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:123-137",
+                  "moduleId": 411,
+                  "resolvedModuleId": 411
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:123-137",
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-123",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 77,
+              "sizes": {
+                "javascript": 77
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 163,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 325,
+              "sizes": {
+                "runtime": 325
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/require chunk loading",
+              "name": "webpack/runtime/require chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 163,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
           "providedExports": [],
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+          ],
           "depth": 0
         },
         {
           "type": "module",
-          "moduleType": "runtime",
+          "moduleType": "javascript/auto",
           "layer": null,
-          "size": 267,
+          "size": 668,
           "sizes": {
-            "runtime": 267
+            "javascript": 668
           },
-          "built": false,
+          "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "webpack/runtime/compat get default export",
-          "name": "webpack/runtime/compat get default export",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
+          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
           "optional": false,
           "orphan": false,
-          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": "",
+          "id": 411,
+          "issuerId": null,
           "chunks": [
-            "main"
+            563
           ],
           "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 308,
-          "sizes": {
-            "runtime": 308
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/define property getters",
-          "name": "webpack/runtime/define property getters",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            "main"
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:123-137",
+              "moduleId": 411,
+              "resolvedModuleId": 411
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.html",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
           ],
-          "assets": [],
-          "reasons": [],
           "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:123-137",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-123",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
         },
         {
           "type": "module",
@@ -381,13 +779,12 @@
           "postOrderIndex": null,
           "optional": false,
           "orphan": false,
-          "dependent": false,
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "",
           "chunks": [
-            "main"
+            563
           ],
           "assets": [],
           "reasons": [],
@@ -400,16 +797,16 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 274,
+          "size": 27,
           "sizes": {
-            "runtime": 274
+            "runtime": 27
           },
           "built": false,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "webpack/runtime/make namespace object",
-          "name": "webpack/runtime/make namespace object",
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
@@ -417,13 +814,12 @@
           "postOrderIndex": null,
           "optional": false,
           "orphan": false,
-          "dependent": false,
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "",
           "chunks": [
-            "main"
+            563
           ],
           "assets": [],
           "reasons": [],
@@ -436,16 +832,16 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 123,
+          "size": 325,
           "sizes": {
-            "runtime": 123
+            "runtime": 325
           },
           "built": false,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "webpack/runtime/node module decorator",
-          "name": "webpack/runtime/node module decorator",
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
@@ -453,13 +849,12 @@
           "postOrderIndex": null,
           "optional": false,
           "orphan": false,
-          "dependent": false,
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "",
           "chunks": [
-            "main"
+            563
           ],
           "assets": [],
           "reasons": [],
@@ -469,441 +864,45 @@
           "depth": null
         }
       ],
-      "origins": [
-        {
-          "module": "",
-          "moduleIdentifier": "",
-          "moduleName": "",
-          "loc": "main",
-          "request": "./src/index.js"
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
         }
-      ]
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
     }
-  ],
-  "modules": [
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 48,
-      "sizes": {
-        "javascript": 48
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-      "name": "./src/index.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-      "index": 0,
-      "preOrderIndex": 0,
-      "index2": 1,
-      "postOrderIndex": 1,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": null,
-      "issuerName": null,
-      "issuerPath": null,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/index.js",
-      "issuerId": null,
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": null,
-          "module": null,
-          "moduleName": null,
-          "resolvedModuleIdentifier": null,
-          "resolvedModule": null,
-          "type": "entry",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./src/index.js",
-          "loc": "main",
-          "moduleId": null,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": 0
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 174604,
-      "sizes": {
-        "javascript": 174604
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-      "name": "./node_modules/moment/moment.js",
-      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-      "index": 1,
-      "preOrderIndex": 1,
-      "index2": 0,
-      "postOrderIndex": 0,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./node_modules/moment/moment.js",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "module": "./node_modules/moment/moment.js",
-          "moduleName": "./node_modules/moment/moment.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "resolvedModule": "./node_modules/moment/moment.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "8:67-81",
-          "moduleId": "./node_modules/moment/moment.js",
-          "resolvedModuleId": "./node_modules/moment/moment.js"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "module": "./node_modules/moment/moment.js",
-          "moduleName": "./node_modules/moment/moment.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "resolvedModule": "./node_modules/moment/moment.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "11:2-6",
-          "moduleId": "./node_modules/moment/moment.js",
-          "resolvedModuleId": "./node_modules/moment/moment.js"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "module": "./node_modules/moment/moment.js",
-          "moduleName": "./node_modules/moment/moment.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "resolvedModule": "./node_modules/moment/moment.js",
-          "type": "module decorator",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "2095:12-18",
-          "moduleId": "./node_modules/moment/moment.js",
-          "resolvedModuleId": "./node_modules/moment/moment.js"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "module": "./node_modules/moment/moment.js",
-          "moduleName": "./node_modules/moment/moment.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/node_modules/moment/moment.js",
-          "resolvedModule": "./node_modules/moment/moment.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "2096:12-26",
-          "moduleId": "./node_modules/moment/moment.js",
-          "resolvedModuleId": "./node_modules/moment/moment.js"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "moment",
-          "loc": "1:0-27",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "moment",
-          "loc": "2:12-18",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: this is used directly at 11:2-6",
-        "CommonJS bailout: module.exports is used directly at 2096:12-26",
-        "CommonJS bailout: module.exports is used directly at 8:67-81"
-      ],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 267,
-      "sizes": {
-        "runtime": 267
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/compat get default export",
-      "name": "webpack/runtime/compat get default export",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 308,
-      "sizes": {
-        "runtime": 308
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/define property getters",
-      "name": "webpack/runtime/define property getters",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 88,
-      "sizes": {
-        "runtime": 88
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/hasOwnProperty shorthand",
-      "name": "webpack/runtime/hasOwnProperty shorthand",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 274,
-      "sizes": {
-        "runtime": 274
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/make namespace object",
-      "name": "webpack/runtime/make namespace object",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 123,
-      "sizes": {
-        "runtime": 123
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/node module decorator",
-      "name": "webpack/runtime/node module decorator",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        "main"
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    }
-  ],
-  "entrypoints": {
-    "main": {
-      "name": "main",
-      "chunks": [
-        "main"
-      ],
-      "assets": [
-        {
-          "name": "main.js",
-          "size": 178704
-        }
-      ],
-      "filteredAssets": 0,
-      "assetsSize": 178704,
-      "auxiliaryAssets": [
-        {
-          "name": "main.js.map",
-          "size": 211290
-        }
-      ],
-      "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 211290,
-      "children": {},
-      "childAssets": {},
-      "isOverSizeLimit": false
-    }
-  },
-  "namedChunkGroups": {
-    "main": {
-      "name": "main",
-      "chunks": [
-        "main"
-      ],
-      "assets": [
-        {
-          "name": "main.js",
-          "size": 178704
-        }
-      ],
-      "filteredAssets": 0,
-      "assetsSize": 178704,
-      "auxiliaryAssets": [
-        {
-          "name": "main.js.map",
-          "size": 211290
-        }
-      ],
-      "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 211290,
-      "children": {},
-      "childAssets": {},
-      "isOverSizeLimit": false
-    }
-  },
-  "errors": [],
-  "errorsCount": 0,
-  "warnings": [],
-  "warningsCount": 0,
-  "children": []
+  ]
 }
