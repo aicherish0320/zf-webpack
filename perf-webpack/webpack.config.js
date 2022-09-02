@@ -26,10 +26,10 @@ const PATHS = {
 // 可以读取 .env 文件，获取里面的值，设置到 process.env.NODE_ENV 里面
 require('dotenv').config()
 
-console.log('webpack.config.js >>> ', process.env.NODE_ENV)
+// console.log('webpack.config.js >>> ', process.env.NODE_ENV)
 
 module.exports = {
-  // mode: 'development',
+  mode: 'development',
   devtool: 'source-map',
   context: process.cwd(), // 上下文目录，项目的根目录
   entry: './src/index.js',
@@ -92,15 +92,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
-      minify: {
-        collapseWhitespace: true,
-        removeComments: true
-      }
+      template: './src/index.html'
+      // minify: {
+      //   collapseWhitespace: true,
+      //   removeComments: true
+      // }
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css'
-    }),
+    })
     // new FriendlyErrorsWebpackPlugin({
     //   onErrors: (severity, errors) => {
     //     let error = errors[0]
@@ -112,18 +112,18 @@ module.exports = {
     //     })
     //   }
     // }),
-    new BundleAnalyzerPlugin({
-      analyzerMode: 'disabled', // 不启动展示打包报告的 HTTP 服务区
-      generateStatsFile: true // 要生成 stats.json 文件
-    }),
-    new IgnorePlugin({
-      resourceRegExp: /^\.\/locale$/,
-      contextRegExp: /moment$/
-    }),
-    new OptimizeCssAssetsPlugin(),
-    new PurgecssWebpackPlugin({
-      paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true })
-    })
+    // new BundleAnalyzerPlugin({
+    //   analyzerMode: 'disabled', // 不启动展示打包报告的 HTTP 服务区
+    //   generateStatsFile: true // 要生成 stats.json 文件
+    // }),
+    // new IgnorePlugin({
+    //   resourceRegExp: /^\.\/locale$/,
+    //   contextRegExp: /moment$/
+    // }),
+    // new OptimizeCssAssetsPlugin(),
+    // new PurgecssWebpackPlugin({
+    //   paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true })
+    // })
     // new DefinePlugin({
     //   // 定义在编译阶段使用的全局变量，在浏览器运行阶段就是值了
     //   'process.env.NODE_ENV': JSON.stringify('development')

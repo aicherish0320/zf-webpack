@@ -1,5 +1,5 @@
-// import moment from 'moment'
-// console.log(moment)
+import { func1 } from './funcs'
 
-// import './index.css'
-console.log('index', process.env.NODE_ENV)
+const ret1 = func1()
+
+console.log('ret1 >>> ', ret1)

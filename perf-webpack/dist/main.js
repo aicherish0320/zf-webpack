@@ -1,2 +1,3 @@
-console.log("index","production");
+/*! For license information please see main.js.LICENSE.txt */
+(()=>{"use strict";var e={"./src/funcs.js":(e,r,o)=>{function t(){}function n(){}o.r(r),o.d(r,{func1:()=>t,func2:()=>n})}},r={};function o(t){var n=r[t];if(void 0!==n)return n.exports;var c=r[t]={exports:{}};return e[t](c,c.exports,o),c.exports}o.d=(e,r)=>{for(var t in r)o.o(r,t)&&!o.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:r[t]})},o.o=(e,r)=>Object.prototype.hasOwnProperty.call(e,r),o.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var t={};(()=>{o.r(t);const e=(0,o("./src/funcs.js").func1)();console.log("ret1 >>> ",e)})()})();
 //# sourceMappingURL=main.js.map

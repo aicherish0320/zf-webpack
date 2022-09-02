@@ -1,8 +1,8 @@
 {
-  "hash": "141d14ce51c3397ea2f1",
+  "hash": "e14233ca3af9588686bd",
   "version": "5.74.0",
-  "time": 367,
-  "builtAt": 1662094694281,
+  "time": 456,
+  "builtAt": 1662097924207,
   "publicPath": "auto",
   "outputPath": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/dist",
   "assetsByChunkName": {
@@ -11,6 +11,81 @@
     ]
   },
   "assets": [
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 758,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.js.LICENSE.txt",
+          "sourceMap": "main.js.map"
+        },
+        "size": 758
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "main.js.map",
+          "size": 2957,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 2957
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "main"
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "main.js.LICENSE.txt",
+          "size": 183,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 183
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
     {
       "type": "asset",
       "name": "index.html",
@@ -29,60 +104,6 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.js",
-      "size": 67,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "javascriptModule": false,
-        "minimized": true,
-        "related": {
-          "sourceMap": "main.js.map"
-        },
-        "size": 67
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "main.js.map",
-          "size": 308,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 308
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "main"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            179
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        179
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
     }
   ],
   "chunks": [
@@ -91,9 +112,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 122,
+      "size": 821,
       "sizes": {
-        "javascript": 122
+        "javascript": 151,
+        "runtime": 670
       },
       "names": [
         "main"
@@ -108,9 +130,9 @@
       "auxiliaryFiles": [
         "main.js.map"
       ],
-      "hash": "035693332a3007343c06",
+      "hash": "4a8a3ea0cd92d6287e25",
       "childrenByOrder": {},
-      "id": 179,
+      "id": "main",
       "siblings": [],
       "parents": [],
       "children": [],
@@ -119,9 +141,88 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 122,
+          "size": 65,
           "sizes": {
-            "javascript": 122
+            "javascript": 65
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/funcs.js",
+          "name": "./src/funcs.js",
+          "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/funcs.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/funcs.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./funcs",
+              "loc": "1:0-31",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./funcs",
+              "loc": "3:13-18",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "func1",
+            "func2"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 86,
+          "sizes": {
+            "javascript": 86
           },
           "built": true,
           "codeGenerated": true,
@@ -132,8 +233,8 @@
           "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 0,
-          "postOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -144,10 +245,10 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 138,
+          "id": "./src/index.js",
           "issuerId": null,
           "chunks": [
-            179
+            "main"
           ],
           "assets": [],
           "reasons": [
@@ -166,13 +267,118 @@
               "resolvedModuleId": null
             }
           ],
-          "usedExports": [],
-          "providedExports": null,
-          "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 5:0-42",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
           "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
         }
       ],
       "origins": [
@@ -191,9 +397,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 122,
+      "size": 86,
       "sizes": {
-        "javascript": 122
+        "javascript": 86
       },
       "built": true,
       "codeGenerated": true,
@@ -204,8 +410,8 @@
       "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 0,
-      "postOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -215,10 +421,10 @@
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 138,
+      "id": "./src/index.js",
       "issuerId": null,
       "chunks": [
-        179
+        "main"
       ],
       "assets": [],
       "reasons": [
@@ -237,37 +443,217 @@
           "resolvedModuleId": null
         }
       ],
-      "usedExports": [],
-      "providedExports": null,
-      "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 5:0-42",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
       "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 65,
+      "sizes": {
+        "javascript": 65
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/funcs.js",
+      "name": "./src/funcs.js",
+      "nameForCondition": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/funcs.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/funcs.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./funcs",
+          "loc": "1:0-31",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./funcs",
+          "loc": "3:13-18",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "func1",
+        "func2"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
     }
   ],
   "entrypoints": {
     "main": {
       "name": "main",
       "chunks": [
-        179
+        "main"
       ],
       "assets": [
         {
           "name": "main.js",
-          "size": 67
+          "size": 758
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 67,
+      "assetsSize": 758,
       "auxiliaryAssets": [
         {
           "name": "main.js.map",
-          "size": 308
+          "size": 2957
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 308,
+      "auxiliaryAssetsSize": 2957,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -277,24 +663,24 @@
     "main": {
       "name": "main",
       "chunks": [
-        179
+        "main"
       ],
       "assets": [
         {
           "name": "main.js",
-          "size": 67
+          "size": 758
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 67,
+      "assetsSize": 758,
       "auxiliaryAssets": [
         {
           "name": "main.js.map",
-          "size": 308
+          "size": 2957
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 308,
+      "auxiliaryAssetsSize": 2957,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -307,10 +693,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "b8505e9014a543c48b3d",
+      "hash": "a0179ceef10937404c34",
       "version": "5.74.0",
-      "time": 124,
-      "builtAt": 1662094694067,
+      "time": 125,
+      "builtAt": 1662097923909,
       "publicPath": "",
       "outputPath": "/Users/junkong/AiCherish/Lesson/zhuf-webpack/perf-webpack/dist",
       "assetsByChunkName": {},
@@ -321,10 +707,10 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 1185,
+          "size": 1479,
           "sizes": {
             "javascript": 745,
-            "runtime": 440
+            "runtime": 734
           },
           "names": [
             "HtmlWebpackPlugin_0-0"
@@ -335,9 +721,9 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "23616ceaf99ce1eb1047",
+          "hash": "e680c1d063ce823c6301",
           "childrenByOrder": {},
-          "id": 563,
+          "id": "HtmlWebpackPlugin_0-0",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -371,10 +757,10 @@
               "failed": false,
               "errors": 0,
               "warnings": 0,
-              "id": 411,
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
               "issuerId": null,
               "chunks": [
-                563
+                "HtmlWebpackPlugin_0-0"
               ],
               "assets": [],
               "reasons": [
@@ -389,8 +775,8 @@
                   "explanation": "",
                   "userRequest": null,
                   "loc": "1:123-137",
-                  "moduleId": 411,
-                  "resolvedModuleId": 411
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
                 },
                 {
                   "moduleIdentifier": null,
@@ -423,9 +809,7 @@
               "usedExports": null,
               "providedExports": null,
               "optimizationBailout": [
-                "CommonJS bailout: module.exports is used directly at 1:123-137",
-                "Statement (VariableDeclaration) with side effects in source code at 1:0-123",
-                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                "CommonJS bailout: module.exports is used directly at 1:123-137"
               ],
               "depth": 0
             },
@@ -458,10 +842,10 @@
               "failed": false,
               "errors": 0,
               "warnings": 0,
-              "id": 163,
+              "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
               "issuerId": null,
               "chunks": [
-                563
+                "HtmlWebpackPlugin_0-0"
               ],
               "assets": [],
               "reasons": [
@@ -480,11 +864,9 @@
                   "resolvedModuleId": null
                 }
               ],
-              "usedExports": [],
+              "usedExports": null,
               "providedExports": [],
-              "optimizationBailout": [
-                "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
-              ],
+              "optimizationBailout": [],
               "depth": 0
             },
             {
@@ -514,7 +896,43 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                563
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 274,
+              "sizes": {
+                "runtime": 274
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
               ],
               "assets": [],
               "reasons": [],
@@ -550,7 +968,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                563
+                "HtmlWebpackPlugin_0-0"
               ],
               "assets": [],
               "reasons": [],
@@ -563,9 +981,9 @@
               "type": "module",
               "moduleType": "runtime",
               "layer": null,
-              "size": 325,
+              "size": 345,
               "sizes": {
-                "runtime": 325
+                "runtime": 345
               },
               "built": false,
               "codeGenerated": true,
@@ -586,7 +1004,7 @@
               "warnings": 0,
               "id": "",
               "chunks": [
-                563
+                "HtmlWebpackPlugin_0-0"
               ],
               "assets": [],
               "reasons": [],
@@ -643,10 +1061,10 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 163,
+          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
           "issuerId": null,
           "chunks": [
-            563
+            "HtmlWebpackPlugin_0-0"
           ],
           "assets": [],
           "reasons": [
@@ -665,11 +1083,9 @@
               "resolvedModuleId": null
             }
           ],
-          "usedExports": [],
+          "usedExports": null,
           "providedExports": [],
-          "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
-          ],
+          "optimizationBailout": [],
           "depth": 0
         },
         {
@@ -700,10 +1116,10 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 411,
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
           "issuerId": null,
           "chunks": [
-            563
+            "HtmlWebpackPlugin_0-0"
           ],
           "assets": [],
           "reasons": [
@@ -718,8 +1134,8 @@
               "explanation": "",
               "userRequest": null,
               "loc": "1:123-137",
-              "moduleId": 411,
-              "resolvedModuleId": 411
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
             },
             {
               "moduleIdentifier": null,
@@ -752,9 +1168,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 1:123-137",
-            "Statement (VariableDeclaration) with side effects in source code at 1:0-123",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+            "CommonJS bailout: module.exports is used directly at 1:123-137"
           ],
           "depth": 0
         },
@@ -784,7 +1198,42 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            563
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
           ],
           "assets": [],
           "reasons": [],
@@ -819,7 +1268,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            563
+            "HtmlWebpackPlugin_0-0"
           ],
           "assets": [],
           "reasons": [],
@@ -832,9 +1281,9 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 325,
+          "size": 345,
           "sizes": {
-            "runtime": 325
+            "runtime": 345
           },
           "built": false,
           "codeGenerated": true,
@@ -854,7 +1303,7 @@
           "warnings": 0,
           "id": "",
           "chunks": [
-            563
+            "HtmlWebpackPlugin_0-0"
           ],
           "assets": [],
           "reasons": [],
@@ -868,7 +1317,7 @@
         "HtmlWebpackPlugin_0-0": {
           "name": "HtmlWebpackPlugin_0-0",
           "chunks": [
-            563
+            "HtmlWebpackPlugin_0-0"
           ],
           "assets": [],
           "filteredAssets": 0,
@@ -885,7 +1334,7 @@
         "HtmlWebpackPlugin_0-0": {
           "name": "HtmlWebpackPlugin_0-0",
           "chunks": [
-            563
+            "HtmlWebpackPlugin_0-0"
           ],
           "assets": [],
           "filteredAssets": 0,

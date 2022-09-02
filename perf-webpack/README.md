@@ -44,7 +44,19 @@
     - `optimize-css-assets-webpack-plugin`，是一个优化和压缩 CSS 资源的插件
     - `terser-webpack-plugin`，是一个优化和压缩 JS 资源的插件
     - `image-webpack-loader`，可以帮助我们对图片进行压缩和优化
+  - tree-shaking
 - 如何运行的更快
+
+## Tree-Shaking
+
+- 一个模块可以有多个方法，只要其中某个方法使用到了，则整个文件都会被打到 bundle 里面去，tree-shaking 就是只把用到的方法打入 bundle，没用的会 uglify 阶段擦除掉
+- 原理是利用 es6 模块的特点，只能作为模块顶层语句出现，import 的模块名只能是字符串常量
+- 开启
+  - webpack 默认支持，可在 production mode 中默认开启
+  - 在 package.json 中配置
+    - "sideEffects": false，所有的代码都没有副作用
+    - 可能会把 css 和 @babel/polyfill 文件干掉
+- webpack5 中的 tree-shaking，是经过加强的优化的
 
 ## 环境差异
 
