@@ -1,2 +1,1 @@
-const na = require('./name')
-module.exports = 'title' + na
+export default 'Hello World'
