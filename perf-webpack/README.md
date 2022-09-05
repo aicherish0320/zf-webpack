@@ -66,8 +66,18 @@
     - preload：预加载，此资源肯定会用到，优先级高，需要提前获取。它慎用，有可能有性能隐患
     - prefetch：预获取，此资源在以后可能会用到，它是在浏览器空闲的时候加载，没有性能问题
   - 提取公共代码
-
-  > 渲染首页的时候，先不加载 video 模块，等当我点击播放按钮的时候，才去服务器动态加载 video 模块，import 语法，import 语句是一个天然的代码分割点，如果遇到 import 就会分割了去一个单独的代码块，可以单独加载
+    - 怎么配置单页应用？怎么配置多页应用
+    - 为什么要提取公共代码
+    - 大网站有多个页面，每个页面由于采用相同技术栈和样式代码，会包含很多公共代码，如果都包含进来会有问题
+    - 相同的资源被重复加载，浪费用户的流量和服务器成本
+    - 每个页面需要加载的资源太大，导致网页首屏加载缓存，影响用户体验
+    - 如果能把公共代码抽离成单独文件进行加载进行优化，可以减少网络传输流量，降低服务器成本
+  - 如何提取
+    - 基础类库，方便长期缓存
+    - 页面之间的公用代码
+    - 各个页面单独生成文件
+  - `splitChunks`
+  - `module chunk bundle`的区别 - module：就是 js 的模块化 webpack 支持 commonjs、es6 等模块化规范，简单来说就是你通过 import 语句引入等代码 - chunk：chunk 是 webpack 根据功能拆分出来的，包含三种情况 - 你的项目入口 - 通过 import() 动态引入的代码 - 通过 splitChunks 拆分出来的代码 - bundle：bundle 是 webpack 打包之后的各个文件，一般就是和 chunk 是一对一的关系，bundle 就是对 chunk 进行编译压缩打包等处理后的产出
 
 ## Tree-Shaking
 
@@ -102,3 +112,11 @@
 - 命令行传 mode， `webpack --mode=development`
 - env `webpack --env=development`
 - cross-env NODE_ENV=development webpack
+
+## 代码分割规则
+
+1. 每个入口是一个 chunk
+2. 动态 import 会分割代码
+3. 代码分割 splitChunkPlugin
+
+渲染首页的时候，先不加载 video 模块，等当我点击播放按钮的时候，才去服务器动态加载 video 模块，import 语法，import 语句是一个天然的代码分割点，如果遇到 import 就会分割了去一个单独的代码块，可以单独加载
