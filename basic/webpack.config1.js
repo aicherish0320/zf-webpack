@@ -1,7 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const FileManagerPlugin = require('filemanager-webpack-plugin')
-const webpack = require('webpack')
+// const ESLintWebpackPlugin = require('eslint-webpack-plugin')
 
 /*
   mode 只是在模块内可用，在node环境中不可用
@@ -9,7 +8,7 @@ const webpack = require('webpack')
 
 module.exports = {
   mode: 'development',
-  // devtool: 'eval-source-map', // 不生成 sourcemap，关掉内部生成 sourcemap 逻辑
+  devtool: false, // 不生成 sourcemap，关掉内部生成 sourcemap 逻辑
   entry: './src/index.js',
   output: {
     filename: 'main.js',
@@ -29,9 +28,33 @@ module.exports = {
     rules: [
       // {
       //   test: /\.js$/i,
-      //   use: ['babel-loader'],
+      //   loader: 'eslint-loader', // 可以进行代码的检查
+      //   enforce: 'pre', // loader 的分类 pre(先执行) post(后执行) normal inline
+      //   options: {
+      //     fix: true // 自动修复
+      //   },
       //   exclude: /node_modules/
       // },
+      // {
+      //   test: /\.js$/i,
+      //   use: [
+      //     {
+      //       loader: 'babel-loader',
+      //       options: {
+      //         presets: ['@babel/preset-env', '@babel/preset-react'],
+      //         plugins: [
+      //           ['@babel/plugin-proposal-decorators', { legacy: true }],
+      //           ['@babel/plugin-proposal-class-properties', { loose: true }]
+      //         ]
+      //       }
+      //     }
+      //   ]
+      // },
+      {
+        test: /\.js$/i,
+        use: ['babel-loader'],
+        exclude: /node_modules/
+      },
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader', 'postcss-loader']
@@ -60,25 +83,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
-    }),
-    new webpack.SourceMapDevToolPlugin({
-      // 向输出文件里添加的映射文件
-      append: `\n//# sourceMappingURL=http://127.0.0.1:3300/[url]`,
-      filename: `[file].map` // main.js -> main.js.map
-    }),
-    // 生成 sourcemap 文件，但是 sourcemap 只会放在本机，不会发不到生成上去
-    new FileManagerPlugin({
-      events: {
-        onEnd: {
-          copy: [
-            {
-              source: './dist/**/*.map',
-              destination: path.resolve(__dirname, 'maps')
-            }
-          ],
-          delete: ['./dist/**/*.map']
-        }
-      }
     })
+    // new ESLintWebpackPlugin({
+    //   exclude: ['node_modules', 'dist']
+    // })
   ]
 }

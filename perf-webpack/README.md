@@ -77,7 +77,10 @@
     - 页面之间的公用代码
     - 各个页面单独生成文件
   - `splitChunks`
-  - `module chunk bundle`的区别 - module：就是 js 的模块化 webpack 支持 commonjs、es6 等模块化规范，简单来说就是你通过 import 语句引入等代码 - chunk：chunk 是 webpack 根据功能拆分出来的，包含三种情况 - 你的项目入口 - 通过 import() 动态引入的代码 - 通过 splitChunks 拆分出来的代码 - bundle：bundle 是 webpack 打包之后的各个文件，一般就是和 chunk 是一对一的关系，bundle 就是对 chunk 进行编译压缩打包等处理后的产出
+  - `module chunk bundle`的区别
+    - module：就是 js 的模块化 webpack 支持 commonjs、es6 等模块化规范，简单来说就是你通过 import 语句引入等代码
+    - chunk：chunk 是 webpack 根据功能拆分出来的，包含三种情况 - 你的项目入口 - 通过 import() 动态引入的代码 - 通过 splitChunks 拆分出来的代码
+    - bundle：bundle 是 webpack 打包之后的各个文件，一般就是和 chunk 是一对一的关系，bundle 就是对 chunk 进行编译压缩打包等处理后的产出
 
 ## Tree-Shaking
 

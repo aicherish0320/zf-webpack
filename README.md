@@ -50,8 +50,6 @@
 
 ## 支持图片
 
-
-
 - `file-loader`解决 css 等文件中的引入图片路径问题
 - `url-loader`当图片小于`limit`的时候会把图片 `base64`编码，大于 limit 参数的时候还是使用 `file-loader`
 
@@ -74,10 +72,31 @@
 ### 配置项
 
 - `eval`：使用 eval 包裹模块代码
-- `source-map`产生 .map 文件
-- `cheap` 不包含列信息
-- `module`包含` loader`的 `sourcemap`
-- `inline`将 `.map`作为 data URI 嵌入，不单独产生 map 文件
+- `source-map`：产生 .map 文件
+- `cheap` 不包含列信息，也不包含 loader 的 sourcemap
+- `module`包含` loader`的 `sourcemap`，否则无法定义源文件
+- `inline`将 `.map`作为 data URI 嵌入，不单独产生 .map 文件
+
+### 组合规则
+
+- `source-map` 单独在外部生成完整的sourcemap 文件，并且在目标文件里建立关联，能提示错误代码的准确原始位置
+- `inline-source-map`以`base64`格式内联在打包后的文件中，内联构建速度更快，也能提示错误代码的准确原始位置
+- `hidden-source-map` 会在外部生成 source map ，但是在目标文件里没有建立关联，不能提示错误代码的准确原始位置
+- `eval-source-map` 会为每一个模块生成一个单独的 sourcemap 文件进行内联，并使用 eval 执行
+- `cheap-source-map` 外部生成 source map 文件，不包含列和 loader 的 map
+
+### 最佳实践
+
+- 开发环境
+  - 我们在开发环境对 source map 的要求是：速度快、调试更友好
+  - 想要速度快，推荐 eval-cheap-source-map
+  - 如果想调试更友好 cheap-module-source-map
+  - 折中选择就是 eval-source-map
+- 生成环境
+  - 首先排除内联，因为一方面我们隐藏了源代码，另一方面减少文件体积
+  - 要想调试友好 sourcemap > cheap-source-map
+  - 想要速度快 cheap
+  - 折中的选择就是 hidden-source-map
 
 # 学什么
 
