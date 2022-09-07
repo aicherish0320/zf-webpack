@@ -14,8 +14,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // 会成为默认的静态文件服务器
     clean: true
   },
-  // 内部就是一个 express 服务器
-  // 其实本质上来说 webpack-dev-server 就是等于 express 服务 + webpackDevMiddleware
   devServer: {
     port: '3301',
     // open: true,
@@ -23,24 +21,16 @@ module.exports = {
     static: {
       // 额外的静态文件根目录
       directory: path.resolve(__dirname, 'static')
-    },
-    onBeforeSetupMiddleware: function (devServer) {
-      if (!devServer) {
-        throw new Error('webpack-dev-server is not defined')
-      }
-      devServer.app.get('/api/users', (req, res) => {
-        res.json([{ id: 1 }, { id: 1 }])
-      })
     }
-
-    // proxy: {
-    //   '/api': {
-    //     target: 'http://localhost:3332',
-    //     pathRewrite: {
-    //       '^/api': ''
-    //     }
-    //   }
-    // }
+  },
+  watch: true, // 默认是 false，监听文件的变化
+  watchOptions: {
+    ignored: /node_modules/, // 忽略文件，不监听此目录里的文件变化
+    aggregateTimeout: 300, // 防抖
+    poll: 1000 // 原理是轮询，是每隔一段时间监控文件的变化 文件变化之后重新打包
+  },
+  externals: {
+    jquery: 'jQuery'
   },
   module: {
     rules: [
