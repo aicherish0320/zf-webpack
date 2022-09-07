@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const FileManagerPlugin = require('filemanager-webpack-plugin')
 const webpack = require('webpack')
 
 /*
@@ -8,6 +9,7 @@ const webpack = require('webpack')
 
 module.exports = {
   mode: 'development',
+  // devtool: 'eval-source-map', // 不生成 sourcemap，关掉内部生成 sourcemap 逻辑
   entry: './src/index.js',
   output: {
     filename: 'main.js',
@@ -16,29 +18,15 @@ module.exports = {
   },
   devServer: {
     port: '3301',
-    // open: true,
+    open: true,
     compress: true,
     static: {
       // 额外的静态文件根目录
       directory: path.resolve(__dirname, 'static')
     }
   },
-  externals: {
-    jquery: 'jQuery'
-  },
   module: {
     rules: [
-      // expose-loader 可以把一个变量放在全局对象上
-      // {
-      //   test: require.resolve('lodash'),
-      //   loader: 'expose-loader',
-      //   options: {
-      //     exposes: {
-      //       globalName: '_', // 放的全局变量名
-      //       override: true // 如果原来这个变量有值的话，是否要覆盖
-      //     }
-      //   }
-      // },
       // {
       //   test: /\.js$/i,
       //   use: ['babel-loader'],
@@ -72,10 +60,25 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
+    }),
+    new webpack.SourceMapDevToolPlugin({
+      // 向输出文件里添加的映射文件
+      append: `\n//# sourceMappingURL=http://127.0.0.1:3300/[url]`,
+      filename: `[file].map` // main.js -> main.js.map
+    }),
+    // 生成 sourcemap 文件，但是 sourcemap 只会放在本机，不会发不到生成上去
+    new FileManagerPlugin({
+      events: {
+        onEnd: {
+          copy: [
+            {
+              source: './dist/**/*.map',
+              destination: path.resolve(__dirname, 'maps')
+            }
+          ],
+          delete: ['./dist/**/*.map']
+        }
+      }
     })
-    // new webpack.ProvidePlugin({
-    //   // 自动向模块内注入第三方模块 相当去自动引入 import _ from 'lodash'
-    //   _: 'lodash'
-    // })
   ]
 }
