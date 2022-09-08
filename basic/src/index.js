@@ -1,5 +1,6 @@
-fetch('/api/users')
-  .then((res) => res.json())
-  .then((res) => {
-    console.log(res)
-  })
+import './style/index.css'
+
+// const logo = require('./assets/lisa1.jpeg')
+// const img = document.createElement('img')
+// img.src = logo
+// document.body.appendChild(img)

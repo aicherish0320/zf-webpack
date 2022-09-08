@@ -100,7 +100,11 @@
 
 ## 打包第三方类库
 
+## 提取CSS
 
+因为 CSS 的下载和JS可以并行，当一个HTML文件很大的时候，我们可以把 CSS 单独提取出来加载
+
+- `mini-css-extract-plugin`
 
 ## 学什么
 
