@@ -1,8 +1,6 @@
-body {
+.title {
   width: 400px;
   height: 600px;
   color: pink;
   background-color: green;
-  background-image: url('../assets/lisa1.jpeg');
-  background-repeat: no-repeat;
 }

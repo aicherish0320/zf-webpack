@@ -17,6 +17,11 @@ module.exports = {
     publicPath: '/' // 加载、插入产出文件的时候的路径前缀
     // assetModuleFilename: 'images/[hash][ext][query]'
   },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src')
+    }
+  },
   // 内部就是一个 express 服务器
   // 其实本质上来说 webpack-dev-server 就是等于 express 服务 + webpackDevMiddleware
   devServer: {
@@ -35,7 +40,6 @@ module.exports = {
         res.json([{ id: 1 }, { id: 1 }])
       })
     }
-
     // proxy: {
     //   '/api': {
     //     target: 'http://localhost:3332',
@@ -65,7 +69,15 @@ module.exports = {
       // },
       {
         test: /\.css$/i,
-        use: [MiniCssExtractCss.loader, 'css-loader', 'postcss-loader']
+        use: [
+          MiniCssExtractCss.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          }
+        ]
       },
       {
         test: /\.s[ac]ss$/i,
