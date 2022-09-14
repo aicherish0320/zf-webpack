@@ -1,4 +1,7 @@
-import name, { age } from './title'
+const btn = document.getElementById('btn')
 
-console.log(name)
-console.log(age)
+btn.addEventListener('click', () => {
+  import('./video').then((ret) => {
+    console.log('ret >>> ', ret)
+  })
+})
