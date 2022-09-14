@@ -1,3 +1,4 @@
-const title = require('./title')
+import name, { age } from './title'
 
-console.log('Hello >>> ', title)
+console.log(name)
+console.log(age)
